@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <title>Dr. Jean Victor | Fisioterapia · Peixoto de Azevedo – MT</title>
+  <meta name="description"
+    content="Fisioterapia especializada para atletas, reabilitação musculoesquelética, mobilidade para idosos e suporte a crianças com deficiência em Peixoto de Azevedo – MT." />
+
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Jean Victor | Fisioterapia" />
+  <meta property="og:description" content="Atendimento especializado e humanizado em Peixoto de Azevedo – MT." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Dr. Jean Victor - Fisioterapia",
+    "description": "Fisioterapia para atletas, reabilitação, mobilidade e suporte a crianças com deficiência.",
+    "telephone": "+55-66-99206-7818",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Peixoto de Azevedo",
+      "addressRegion": "MT",
+      "addressCountry": "BR"
+    },
+    "provider": {
+      "@type": "Physician",
+      "name": "Dr. Jean Victor",
+      "medicalSpecialty": "Physical Therapy"
+    },
+    "areaServed": ["Peixoto de Azevedo", "Região Norte do Mato Grosso"]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ── HEADER ──────────────────────────────────────────────────── -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+
+      <a class="brand" href="#inicio" aria-label="Dr. Jean Victor — página inicial">
+        <div class="brand__mark" aria-hidden="true">JV</div>
+        <div>
+          <div class="brand__name">Dr. Jean Victor</div>
+          <div class="brand__role">Fisioterapeuta · CREFITO</div>
+        </div>
+      </a>
+
+      <nav class="site-nav" aria-label="Navegação principal">
+        <button class="nav__toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+          aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__list" id="nav-menu" role="list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__cta">
+        <a class="btn btn--outline btn--sm" href="https://www.instagram.com/drjean.victor_fisio" target="_blank"
+          rel="noopener noreferrer" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+        </a>
+        <a class="btn btn--primary btn--sm" id="whatsappTop" href="#" target="_blank" rel="noopener">Agendar
+          consulta</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ── CONTEÚDO PRINCIPAL ──────────────────────────────────────── -->
+  <main id="conteudo">
+
+    <!-- ═══ HERO ═════════════════════════════════════════════════ -->
+    <section class="hero" id="inicio" aria-label="Apresentação">
+      <div class="hero__bg" aria-hidden="true">
+        <video class="hero__video" autoplay muted loop playsinline preload="none" poster="static/hero.jpg">
+          <source src="static/hero-video.mp4" type="video/mp4" />
+        </video>
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__container">
+        <!-- Coluna de texto -->
+        <div class="hero__content" data-reveal>
+          <span class="hero__eyebrow">Peixoto de Azevedo · Mato Grosso</span>
+
+          <h1 class="hero__title">
+            Você merece se<br>
+            <em>mover sem dor.</em>
+          </h1>
+
+          <p class="hero__body">
+            Fisioterapia personalizada para atletas, idosos e crianças — com diagnóstico preciso, plano de tratamento
+            claro e resultados reais.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" id="whatsappHero" href="#" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a class="btn btn--ghost-white btn--lg" href="#servicos">Ver serviços ↓</a>
+          </div>
+
+          <div class="hero__proof" aria-label="Números">
+            <div class="hero__stat">
+              <span class="hero__stat-n">500<span class="hero__stat-plus">+</span></span>
+              <span class="hero__stat-l">Pacientes atendidos</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <span class="hero__stat-n">10<span class="hero__stat-plus">+</span></span>
+              <span class="hero__stat-l">Anos de experiência</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <span class="hero__stat-n">98<span class="hero__stat-plus">%</span></span>
+              <span class="hero__stat-l">Satisfação dos pacientes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna de foto -->
+        <div class="hero__photo" data-reveal aria-label="Foto do Dr. Jean Victor">
+          <div class="hero__photo-frame">
+            <img src="static/hero.jpg" alt="Dr. Jean Victor — Fisioterapeuta em Peixoto de Azevedo"
+              class="hero__photo-img" loading="eager" width="440" height="587" />
+            <div class="hero__photo-badge" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              <span>CREFITO Registrado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WhatsApp flutuante -->
+      <a class="wa-float" href="#" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+        <span class="wa-float__pulse" aria-hidden="true"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"
+          aria-hidden="true">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        <span class="wa-float__label">Agendar consulta</span>
+      </a>
+    </section>
+
+    <!-- ═══ BARRA DE CONFIANÇA ═══════════════════════════════════ -->
+    <div class="trust-bar" aria-label="Credenciais profissionais">
+      <div class="container trust-bar__inner">
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          <span>CREFITO Registrado</span>
+        </div>
+        <div class="trust-sep" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="8" r="7" />
+            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+          </svg>
+          <span>Especialista certificado</span>
+        </div>
+        <div class="trust-sep" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+          <span>Atende todas as idades</span>
+        </div>
+        <div class="trust-sep" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          <span>Peixoto de Azevedo · MT</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ SOBRE O DR. JEAN ══════════════════════════════════════ -->
+    <section class="section" id="sobre" aria-label="Sobre o Dr. Jean Victor">
+      <div class="container">
+        <div class="about-grid" data-reveal>
+
+          <div class="about__photo-col">
+            <div class="about__photo-wrap">
+              <img src="static/hero.jpg" alt="Dr. Jean Victor, fisioterapeuta" class="about__photo" loading="lazy"
+                width="480" height="560" />
+              <div class="about__photo-card">
+                <div class="about__card-stat">
+                  <strong>10+</strong>
+                  <span>anos de prática clínica</span>
+                </div>
+                <div class="about__card-divider"></div>
+                <div class="about__card-stat">
+                  <strong>3</strong>
+                  <span>especialidades</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__text-col">
+            <span class="section__eyebrow">Quem é o profissional</span>
+            <h2 class="section__title">Dr. Jean Victor,<br>seu aliado na reabilitação</h2>
+            <p class="about__body">
+              Com mais de uma década de experiência clínica, o Dr. Jean Victor atende em Peixoto de Azevedo com uma
+              abordagem que une ciência e escuta ativa. Cada paciente é tratado como único — com diagnóstico preciso,
+              plano personalizado e comunicação clara em todas as etapas.
+            </p>
+            <p class="about__body">
+              Especializado em reabilitação musculoesquelética, fisioterapia esportiva e atendimento pediátrico
+              especializado, com formação continuada e atualização constante baseada em evidências.
+            </p>
+            <div class="about__skills">
+              <div class="about__skill-tag">Reabilitação musculoesquelética</div>
+              <div class="about__skill-tag">Fisioterapia esportiva</div>
+              <div class="about__skill-tag">Atendimento pediátrico</div>
+              <div class="about__skill-tag">Gerontologia</div>
+              <div class="about__skill-tag">Cinesioterapia</div>
+              <div class="about__skill-tag">Terapia manual</div>
+            </div>
+            <a class="btn btn--primary" id="whatsappSobre" href="#" target="_blank" rel="noopener">Agendar avaliação</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SERVIÇOS ══════════════════════════════════════════════ -->
+    <section class="section section--gray" id="servicos" aria-label="Serviços">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow">Áreas de atendimento</span>
+          <h2 class="section__title">Para quem é o atendimento?</h2>
+          <p class="section__sub">
+            Cada perfil de paciente tem uma abordagem própria — adaptada ao seu objetivo e à sua realidade.
+          </p>
+        </div>
+
+        <div class="services-grid" data-reveal>
+
+          <article class="service-card" id="atletismo">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="5" r="2" />
+                <path
+                  d="M10.5 8.5L7 17h2.5l1-3 2.5 2.5V21h2v-5l-2.5-2.5.8-3L15.5 15H18v-2h-2l-3-4.5c-.4-.6-1-.9-1.6-.9-.3 0-.6.1-.9.3z" />
+              </svg>
+            </div>
+            <div class="service-card__num" aria-hidden="true">01</div>
+            <h3 class="service-card__title">Atletismo & Performance</h3>
+            <p class="service-card__body">
+              Para atletas que querem voltar a treinar com segurança ou superar limitações físicas — com biomecânica,
+              prevenção e reabilitação baseada em evidência.
+            </p>
+            <ul class="service-card__list">
+              <li>Avaliação biomecânica e funcional</li>
+              <li>Reabilitação pós-lesão orientada ao esporte</li>
+              <li>Fortalecimento para estabilidade e performance</li>
+            </ul>
+            <a class="btn btn--primary service-card__cta" id="whatsappAtletismo" href="#" target="_blank"
+              rel="noopener">
+              Quero agendar
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card service-card--featured" id="idosos">
+            <div class="service-card__featured-label" aria-hidden="true">Mais procurado</div>
+            <div class="service-card__icon service-card__icon--featured" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="5" r="2" />
+                <path d="M12 8c-2 0-4 1-4 3v2h2v7h4v-7h2v-2c0-2-2-3-4-3z" />
+                <path d="M9 18h6" />
+              </svg>
+            </div>
+            <div class="service-card__num" aria-hidden="true">02</div>
+            <h3 class="service-card__title">Mobilidade & Idosos</h3>
+            <p class="service-card__body">
+              Para quem quer manter a independência, ganhar equilíbrio e reduzir dores no dia a dia — com segurança e
+              respeito ao ritmo de cada pessoa.
+            </p>
+            <ul class="service-card__list">
+              <li>Melhora de marcha, equilíbrio e força</li>
+              <li>Alívio de rigidez e dores articulares</li>
+              <li>Exercícios adaptados à rotina</li>
+            </ul>
+            <a class="btn btn--primary service-card__cta" id="whatsappIdosos" href="#" target="_blank" rel="noopener">
+              Quero agendar
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-card" id="criancas">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <circle cx="12" cy="4" r="2" />
+                <path d="M12 7c-2.5 0-5 1.5-5 4v2h3v7h4v-7h3v-2c0-2.5-2.5-4-5-4z" />
+                <path d="M7 10c-1 0-2 .5-2 1.5v1h2" />
+                <path d="M17 10c1 0 2 .5 2 1.5v1h-2" />
+              </svg>
+            </div>
+            <div class="service-card__num" aria-hidden="true">03</div>
+            <h3 class="service-card__title">Crianças com Deficiência</h3>
+            <p class="service-card__body">
+              Abordagem individual focada em funcionalidade e qualidade de vida — desenvolvida junto à família para que
+              os resultados se estendam além das sessões.
+            </p>
+            <ul class="service-card__list">
+              <li>Estimulação funcional e neuromotora</li>
+              <li>Coordenação motora e mobilidade</li>
+              <li>Plano compartilhado com pais e cuidadores</li>
+            </ul>
+            <a class="btn btn--primary service-card__cta" id="whatsappCriancas" href="#" target="_blank" rel="noopener">
+              Quero agendar
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ COMO FUNCIONA ══════════════════════════════════════════ -->
+    <section class="section" id="processo" aria-label="Como funciona">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <span class="section__eyebrow">Do início ao fim</span>
+          <h2 class="section__title">Como é o processo terapêutico?</h2>
+          <p class="section__sub">
+            Sem surpresas. Cada etapa é explicada com clareza para você saber onde está e para onde vai.
+          </p>
+        </div>
+
+        <div class="process" data-reveal role="list">
+          <div class="process__step" role="listitem">
+            <div class="process__num" aria-hidden="true">01</div>
+            <div class="process__text">
+              <h3 class="process__step-title">Avaliação e diagnóstico</h3>
+              <p class="process__step-body">Escuta ativa sobre sua dor, histórico e objetivos. Identificamos o ponto de
+                partida sem julgamentos.</p>
+            </div>
+          </div>
+          <div class="process__step" role="listitem">
+            <div class="process__num" aria-hidden="true">02</div>
+            <div class="process__text">
+              <h3 class="process__step-title">Plano com metas reais</h3>
+              <p class="process__step-body">Definimos etapas mensuráveis: sem promessas vazias, só o que é possível com
+                consistência.</p>
+            </div>
+          </div>
+          <div class="process__step" role="listitem">
+            <div class="process__num" aria-hidden="true">03</div>
+            <div class="process__text">
+              <h3 class="process__step-title">Evolução nas sessões</h3>
+              <p class="process__step-body">Aplicamos as técnicas certas, ajustamos conforme sua resposta e avançamos em
+                conjunto.</p>
+            </div>
+          </div>
+          <div class="process__step" role="listitem">
+            <div class="process__num" aria-hidden="true">04</div>
+            <div class="process__text">
+              <h3 class="process__step-title">Retorno seguro à vida</h3>
+              <p class="process__step-body">Estratégias de manutenção para você continuar evoluindo e reduzir o risco de
+                recidiva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ DEPOIMENTOS ═══════════════════════════════════════════ -->
+    <section class="section section--dark" id="depoimentos" aria-label="Depoimentos">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow" style="color:#8df0d6">Histórias reais</span>
+          <h2 class="section__title">O que dizem nossos pacientes</h2>
+          <p class="section__sub">Pessoas que recuperaram movimento, confiança e qualidade de vida.</p>
+        </div>
+
+        <div class="carousel" data-reveal aria-label="Carrossel de depoimentos">
+          <button class="carousel__btn" type="button" data-carousel-prev aria-label="Depoimento anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+          <div class="carousel__viewport" tabindex="0">
+            <div class="carousel__track" data-carousel-track>
+
+              <article class="quote-card" role="group" aria-label="Depoimento 1">
+                <div class="stars" aria-label="5 estrelas">★★★★★</div>
+                <p>"Voltei a treinar com segurança depois de meses parado com lesão no joelho. O plano foi claro desde o
+                  início e o resultado superou minha expectativa."</p>
+                <footer>
+                  <strong>Lucas M.</strong>
+                  <span>Atleta amador · 28 anos</span>
+                </footer>
+              </article>
+
+              <article class="quote-card" role="group" aria-label="Depoimento 2">
+                <div class="stars" aria-label="5 estrelas">★★★★★</div>
+                <p>"Minha mãe tinha dificuldade para andar. Em dois meses ela recuperou o equilíbrio e hoje faz
+                  caminhadas sozinha. Gratidão enorme."</p>
+                <footer>
+                  <strong>Carlos A.</strong>
+                  <span>Filho de paciente · 55 anos</span>
+                </footer>
+              </article>
+
+              <article class="quote-card" role="group" aria-label="Depoimento 3">
+                <div class="stars" aria-label="5 estrelas">★★★★★</div>
+                <p>"Meu filho evoluiu muito mais do que esperávamos. O Dr. Jean sempre nos explicava cada passo com
+                  paciência e clareza. Recomendo muito."</p>
+                <footer>
+                  <strong>Fernanda S.</strong>
+                  <span>Mãe de paciente especial</span>
+                </footer>
+              </article>
+
+              <article class="quote-card" role="group" aria-label="Depoimento 4">
+                <div class="stars" aria-label="5 estrelas">★★★★★</div>
+                <p>"Vivi anos com dor nas costas achando que era normal. Hoje trabalho e durmo sem dor. Se eu soubesse
+                  antes, teria começado muito antes."</p>
+                <footer>
+                  <strong>Ana P.</strong>
+                  <span>Paciente · 47 anos</span>
+                </footer>
+              </article>
+
+            </div>
+          </div>
+          <button class="carousel__btn" type="button" data-carousel-next aria-label="Próximo depoimento">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              aria-hidden="true">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CALCULADORA ════════════════════════════════════════════ -->
+    <section class="section" aria-label="Calculadora de sessão">
+      <div class="container">
+        <div class="section__head" data-reveal>
+          <span class="section__eyebrow">Sem surpresas</span>
+          <h2 class="section__title">Estime sua primeira sessão</h2>
+          <p class="section__sub">
+            Simule o tempo e o valor aproximado antes de agendar. Os valores são confirmados na avaliação presencial.
+          </p>
+        </div>
+
+        <div class="calc-wrap" data-reveal>
+          <div class="field">
+            <label class="field__label" for="calcGoal">Seu objetivo</label>
+            <select id="calcGoal" class="field__control" required>
+              <option value="atletismo">Atletismo / performance</option>
+              <option value="dor">Dor e reabilitação</option>
+              <option value="mobilidade">Mobilidade / qualidade de vida</option>
+              <option value="crianca">Criança com deficiência</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="calcIntensity">Intensidade do caso (1 = leve · 5 = grave)</label>
+            <input id="calcIntensity" class="field__control field__control--range" type="range" min="1" max="5"
+              value="3" />
+            <span class="field__meta">Intensidade selecionada: <strong id="calcIntensityLabel">3</strong></span>
+          </div>
+
+          <div class="field">
+            <span class="field__label">Já fez fisioterapia antes?</span>
+            <div class="segmented" role="radiogroup" aria-label="Já fez fisioterapia">
+              <button type="button" class="segmented__btn is-active" data-seg="sim" aria-pressed="true">Sim</button>
+              <button type="button" class="segmented__btn" data-seg="nao" aria-pressed="false">Não, é minha primeira
+                vez</button>
+              <input type="hidden" id="calcPrev" value="sim" />
+            </div>
+          </div>
+
+          <div class="calc__result" aria-live="polite">
+            <div class="calc__result-item">
+              <span class="calc__result-label">Tempo estimado</span>
+              <span class="calc__result-value"><span id="calcTime">45</span> min</span>
+            </div>
+            <div class="calc__result-sep"></div>
+            <div class="calc__result-item">
+              <span class="calc__result-label">Valor estimado</span>
+              <span class="calc__result-value">R$ <span id="calcPrice">0</span></span>
+            </div>
+          </div>
+          <p class="calc__note">Estimativa orientativa — os valores são confirmados na avaliação presencial.</p>
+
+          <a class="btn btn--primary" id="calcWhats" href="#" target="_blank" rel="noopener">Agendar com esta estimativa
+            pelo WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ ANTES / DEPOIS ════════════════════════════════════════ -->
+    <section class="section section--gray" aria-label="Evolução do paciente">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow">Evolução visível</span>
+          <h2 class="section__title">Antes e depois do tratamento</h2>
+          <p class="section__sub">Arraste o controle para comparar. Resultados reais de pacientes reais.</p>
+        </div>
+
+        <div class="compare" data-reveal>
+          <div class="compare__frame" role="group" aria-label="Slider comparativo antes e depois">
+            <div class="compare__images" aria-hidden="true">
+              <img class="compare__img compare__img--after" src="static/before.jpg" alt="Antes do tratamento"
+                loading="lazy" />
+              <img class="compare__img compare__img--before" src="static/after.jpg" alt="Depois do tratamento"
+                loading="lazy" />
+            </div>
+            <div class="compare__handle" aria-hidden="true">
+              <div class="compare__line"></div>
+              <div class="compare__knob"></div>
+            </div>
+            <div class="compare__labels" aria-hidden="true">
+              <span class="compare__label-pill">Depois</span>
+              <span class="compare__label-pill">Antes</span>
+            </div>
+          </div>
+          <p class="compare__note">⟵ Arraste para comparar ⟶</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ════════════════════════════════════════════════════ -->
+    <section class="section" aria-label="Perguntas frequentes">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow">Tire suas dúvidas</span>
+          <h2 class="section__title">Perguntas frequentes</h2>
+          <p class="section__sub">Respostas diretas para as dúvidas mais comuns antes de agendar.</p>
+        </div>
+
+        <div class="faq" data-reveal>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false" data-faq="0">
+              Quanto tempo leva para eu sentir melhora?
+              <span class="faq__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              <p>Varia conforme a condição, histórico e consistência. Em geral, avaliamos progresso por fases e
+                ajustamos o plano junto com você. Muitos pacientes relatam melhora perceptível já nas primeiras semanas.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false" data-faq="1">
+              Preciso de encaminhamento médico?
+              <span class="faq__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              <p>Na maioria dos casos, não. O fisioterapeuta tem autonomia diagnóstica. Agende a avaliação e confirmamos
+                na consulta.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false" data-faq="2">
+              Atende crianças, idosos e atletas?
+              <span class="faq__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              <p>Sim. O tratamento é individualizado para cada perfil — com objetivos, técnicas e ritmo adequados a cada
+                pessoa.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false" data-faq="3">
+              O que acontece entre as sessões?
+              <span class="faq__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              <p>Você recebe orientações e exercícios específicos para fazer em casa, o que potencializa os resultados
+                de cada sessão e acelera sua recuperação.</p>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false" data-faq="4">
+              Como sei se este tratamento é para mim?
+              <span class="faq__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" hidden>
+              <p>A primeira avaliação é o melhor caminho. Conversamos, examinamos e definimos juntos se e como podemos
+                ajudar no seu caso — sem compromisso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ LOCALIZAÇÃO ════════════════════════════════════════════ -->
+    <section class="section section--gray" aria-label="Localização">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow">Onde estamos</span>
+          <h2 class="section__title">Consultório em Peixoto de Azevedo</h2>
+        </div>
+
+        <div class="map-wrap" data-reveal>
+          <div class="map__left">
+            <h3 class="map__title">Peixoto de Azevedo · MT</h3>
+            <p class="map__body">
+              Envie uma mensagem pelo WhatsApp para receber o endereço completo, confirmar o horário e receber
+              orientações de acesso.
+            </p>
+            <div class="map__actions">
+              <a class="btn btn--primary" href="#" id="routeWhats" target="_blank" rel="noopener">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"
+                  aria-hidden="true">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                Receber endereço
+              </a>
+              <button class="btn btn--outline" type="button" data-open-maps>Ver no Maps</button>
+            </div>
+          </div>
+          <div class="map__embed" data-map-lazy>
+            <iframe title="Localização do consultório em Peixoto de Azevedo" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Peixoto%20de%20Azevedo%2C%20MT&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTATO ════════════════════════════════════════════════ -->
+    <section class="section" id="contato" aria-label="Contato">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <span class="section__eyebrow">Vamos conversar</span>
+          <h2 class="section__title">Pronto para começar?</h2>
+          <p class="section__sub">Preencha o formulário ou use a triagem rápida. Respondo pelo WhatsApp o mais breve
+            possível.</p>
+        </div>
+
+        <div class="contact-wrap" data-reveal>
+
+          <!-- Info + chatbot -->
+          <div class="contact-info">
+
+            <div class="contact-details-list">
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail__label">Cidade</div>
+                  <div class="contact-detail__value">Peixoto de Azevedo · MT</div>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.35 6.35l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail__label">WhatsApp</div>
+                  <div class="contact-detail__value">+55 (66) 99206-7818</div>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail__label">Instagram</div>
+                  <a class="contact-detail__value contact-detail__link"
+                    href="https://www.instagram.com/drjean.victor_fisio" target="_blank"
+                    rel="noopener noreferrer">@drjean.victor_fisio</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chatbot triagem -->
+            <div class="chatbot" aria-label="Triagem rápida">
+              <div class="chatbot__head">
+                <span class="chatbot__title">Triagem rápida</span>
+                <span class="chatbot__tag">Resposta rápida</span>
+              </div>
+              <div class="chatbot__body" id="botLog" role="log" aria-live="polite">
+                <div class="msg msg--bot">Olá! Para que área você precisa de ajuda?</div>
+              </div>
+              <div class="chatbot__quick" role="group" aria-label="Opções de triagem">
+                <button class="chip" type="button" data-bot="atletismo">🏃 Atletismo</button>
+                <button class="chip" type="button" data-bot="dor">💪 Dor / reabilitação</button>
+                <button class="chip" type="button" data-bot="mobilidade">🧓 Mobilidade / idosos</button>
+                <button class="chip" type="button" data-bot="crianca">👶 Criança</button>
+              </div>
+              <div class="chatbot__composer">
+                <label class="sr-only" for="botName">Seu nome</label>
+                <input id="botName" class="chatbot__input" type="text" placeholder="Seu nome (opcional)"
+                  autocomplete="name" />
+                <button class="btn btn--primary" type="button" data-bot-send>Continuar</button>
+              </div>
+              <div class="chatbot__footer">
+                <a class="chatbot__wa" href="#" id="botWhats" target="_blank" rel="noopener">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                  Enviar triagem pelo WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário de agendamento -->
+          <div class="contact-form" aria-label="Formulário de agendamento">
+            <h3 class="contact-form__title">Agende sua avaliação</h3>
+
+            <form id="contactForm" novalidate>
+              <div class="field">
+                <label class="field__label" for="nome">Nome completo *</label>
+                <input id="nome" name="nome" class="field__control" type="text" placeholder="Seu nome completo"
+                  autocomplete="name" required />
+                <div class="field__error" data-err-for="nome" aria-live="polite"></div>
+              </div>
+
+              <div class="fields-row">
+                <div class="field">
+                  <label class="field__label" for="idade">Idade</label>
+                  <input id="idade" name="idade" class="field__control" type="number" placeholder="Ex.: 35" min="0"
+                    max="120" autocomplete="off" />
+                </div>
+                <div class="field">
+                  <label class="field__label" for="email">E-mail</label>
+                  <input id="email" name="email" class="field__control" type="email" placeholder="seu@email.com"
+                    autocomplete="email" />
+                  <div class="field__error" data-err-for="email" aria-live="polite"></div>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="objetivo">Objetivo *</label>
+                <select id="objetivo" name="objetivo" class="field__control" required>
+                  <option value="" selected>Selecione sua necessidade</option>
+                  <option value="atletismo">Atletismo / performance</option>
+                  <option value="dor">Dor / reabilitação</option>
+                  <option value="mobilidade">Mobilidade / idosos</option>
+                  <option value="crianca">Criança com deficiência</option>
+                </select>
+                <div class="field__error" data-err-for="objetivo" aria-live="polite"></div>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="mensagem">Queixa ou objetivo *</label>
+                <textarea id="mensagem" name="mensagem" class="field__control field__control--textarea" rows="4"
+                  required maxlength="500"
+                  placeholder="Descreva em poucas linhas sua dor, limitação ou o que deseja alcançar."></textarea>
+                <div class="field__meta"><span id="msgCount">0</span>/500 caracteres</div>
+                <div class="field__error" data-err-for="mensagem" aria-live="polite"></div>
+              </div>
+
+              <div class="form__actions">
+                <button class="btn btn--primary" type="submit" id="formSubmit" disabled>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                  Enviar pelo WhatsApp
+                </button>
+                <button class="btn btn--outline" type="button" data-fill-sample>Usar exemplo</button>
+              </div>
+
+              <p class="form__note" aria-live="polite">
+                Ao enviar, uma conversa no WhatsApp será aberta com sua mensagem já preenchida.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+
+      <div class="footer__col footer__col--brand">
+        <div class="footer__logo">
+          <div class="brand__mark brand__mark--sm" aria-hidden="true">JV</div>
+          <div>
+            <div class="footer__brand">Dr. Jean Victor</div>
+            <div class="footer__sub">Fisioterapeuta · Peixoto de Azevedo – MT</div>
+          </div>
+        </div>
+        <p class="footer__tagline">Cuidando de pessoas com ciência, técnica e respeito desde o primeiro atendimento.</p>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title">Atendimento</div>
+        <ul class="footer__col-list">
+          <li><a class="footer__link" href="#servicos">Atletismo & Performance</a></li>
+          <li><a class="footer__link" href="#servicos">Mobilidade & Idosos</a></li>
+          <li><a class="footer__link" href="#servicos">Crianças com Deficiência</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__col-title">Contato</div>
+        <ul class="footer__col-list">
+          <li><a class="footer__link" id="whatsappFooter" href="#" target="_blank" rel="noopener">WhatsApp: (66)
+              99206-7818</a></li>
+          <li><a class="footer__link" href="https://www.instagram.com/drjean.victor_fisio" target="_blank"
+              rel="noopener noreferrer">Instagram: @drjean.victor_fisio</a></li>
+          <li><a class="footer__link" href="#contato">Formulário de agendamento</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <span class="footer__copy">© <span id="year"></span> Dr. Jean Victor · Todos os direitos reservados</span>
+        <span class="footer__copy">Peixoto de Azevedo – MT · CREFITO Registrado</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video modal -->
+  <dialog class="video-modal" id="videoModal" aria-label="Vídeo de apresentação">
+    <form method="dialog" class="video-modal__form">
+      <button class="video-modal__close" aria-label="Fechar vídeo" type="submit">×</button>
+    </form>
+    <div class="video-modal__content">
+      <video class="video-modal__video" controls preload="none" poster="static/hero.jpg">
+        <source src="static/hero-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
